@@ -15,28 +15,28 @@
   
   @font-face {
     font-family: 'BasementGrotesque';
-    src: url('https://napolidan.github.io/portafolio/public/fonts/BasementGrotesque.otf') format('opentype');
+    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/BasementGrotesque.otf') format('opentype');
     font-weight: black;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'AileronBlack';
-    src: url('https://napolidan.github.io/portafolio/public/fonts/Aileron-Black.otf') format('opentype');
+    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/Aileron-Black.otf') format('opentype');
     font-weight: black;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'AileronBold';
-    src: url('https://napolidan.github.io/portafolio/public/fonts/Aileron-Bold.otf') format('opentype');
+    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/Aileron-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'InstagramSans';
-    src: url('https://napolidan.github.io/portafolio/public/fonts/InstagramSans.ttf') format('opentype');
+    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/InstagramSans.ttf') format('opentype');
     font-weight: black;
     font-style: normal;
   }

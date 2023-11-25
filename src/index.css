@@ -15,7 +15,7 @@
   
   @font-face {
     font-family: 'BasementGrotesque';
-    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/BasementGrotesque.otf') format('opentype');
+    src: url('https://github.com/napolidan/portafolio/raw/master/public/fonts/BasementGrotesque.otf') format('opentype');
     font-weight: black;
     font-style: normal;
   }

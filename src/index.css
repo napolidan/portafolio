@@ -1,0 +1,213 @@
+:root, body, body *{
+    background-color: #252525;
+    color: white;
+  }
+  
+  
+  
+  #root{
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @font-face {
+    font-family: 'BasementGrotesque';
+    src: url('./fonts/BasementGrotesque.otf') format('opentype');
+    font-weight: black;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AileronBlack';
+    src: url('./fonts/Aileron-Black.otf') format('opentype');
+    font-weight: black;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AileronBold';
+    src: url('./fonts/Aileron-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'InstagramSans';
+    src: url('./fonts/InstagramSans.ttf') format('opentype');
+    font-weight: black;
+    font-style: normal;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  a.nav-link{
+    color: white;
+    font-family: "AileronBold";
+    font-size: 32px;
+  }
+  
+  a.nav-link .selected{
+    font-size: 28px;
+  }
+  
+  .container{
+    margin-block: 10rem;
+  }
+  
+  .basement{
+    font-family: "BasementGrotesque";
+    font-size: 100px;
+  }
+  
+  .sub-title{
+    font-size: 80px;
+  }
+  
+  .instagram-sans{
+    font-family: "InstagramSans";
+    font-size: 2rem;
+    color: #FFC66F;
+  }
+  
+  h3{
+    font-size: 48px !important;
+  }
+  
+  .aileron-black{
+    font-family: "AileronBlack";
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  .container {
+    height: 100%;
+    flex: 1;
+  }
+  
+  .yellow-square{
+    border: 1px solid #FFC66F;
+    min-height: 218px;
+    min-width: 218px;
+    width: fit-content;
+  }
+  
+  .yellow-text{
+    color: #FFC66F;
+  }
+  
+  .personal div{
+    width: 55%;
+  }
+  
+  .personal>img{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .designs .text{
+    width: 45%;
+  }
+  
+  .designs .images *{
+    max-width: 100%;
+  }
+  
+  .visible-responsive {
+    visibility: hidden;
+    position: absolute;
+  }
+  
+  .designs .images .power-ranks *{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1199px) {
+  
+    .basement{
+      font-size: 80px;
+    }
+    
+    .sub-title{
+      font-size: 60px;
+    }
+  
+    .aileron-black{
+      font-size: 20px;
+    }
+  
+    .designs div{
+      flex-direction: column;
+    }
+  
+    .about .no-visible-responsive, .about .no-visible-responsive *{
+      display: none;
+    }
+  
+    .about .visible-responsive {
+      visibility: visible;
+      position: static;
+      flex-wrap: wrap;
+    }
+  
+    .about .visible-responsive div{
+      padding: 10px;
+      width: 50%;
+    }
+  
+    .about .visible-responsive img{
+      width: 100%;
+      min-width: 300px;
+    }
+  
+  }
+  
+  @media (max-width: 1400px) {
+  
+    .curriculum .visible-responsive {
+      visibility: visible;
+    }
+  
+    .curriculum .no-visible-responsive, .curriculum .no-visible-responsive *{
+      display: none;
+    }
+  
+    .curriculum .yellow-square {
+      justify-content: end !important;
+    }
+  }
+  
+  .cv{
+    width: 50%;
+  }
+  
+  
+  .curriculum .yellow-square, .contact .yellow-square {
+    height: fit-content;
+  }
+  
+  .marked, .marked:visited {
+    text-decoration: none;
+    width: fit-content;
+    background-color: #FFC66F;
+    color: #252525;
+  }
+  
+  .marked:hover {
+    text-decoration: none;
+    background-color: #252525;
+    color: #FFC66F;
+  }
+  

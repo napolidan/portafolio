@@ -60,6 +60,10 @@
   a.nav-link .selected{
     font-size: 28px;
   }
+
+  .custom-navbar {
+    background-color: #252525;
+  }
   
   .container{
     margin-block: 5rem;
@@ -81,7 +85,7 @@
   }
   
   h3{
-    font-size: 48px !important;
+    font-size: 28px !important;
   }
   
   .aileron-black{
@@ -137,15 +141,15 @@
   @media (max-width: 1199px) {
   
     .basement{
-      font-size: 80px;
+      font-size: 40px;
     }
     
     .sub-title{
-      font-size: 60px;
+      font-size: 30px;
     }
   
     .aileron-black{
-      font-size: 20px;
+      font-size: 14px;
     }
   
     .designs div{
@@ -174,7 +178,7 @@
   
   }
   
-  @media (max-width: 1400px) {
+  @media (max-width: 800px) {
   
     .curriculum .visible-responsive {
       visibility: visible;
@@ -198,6 +202,16 @@
     height: fit-content;
   }
   
+  .marked-text {
+    width: fit-content;
+    background-color: #FFC66F;
+    color: #252525;
+  }
+
+  .highlighted-text{
+    color: #FFC66F;
+  }
+
   .marked, .marked:visited {
     text-decoration: none;
     width: fit-content;

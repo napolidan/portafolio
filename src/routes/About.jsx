@@ -13,7 +13,7 @@ const About = () => {
                 <section className="d-flex gap-5">
                     <span className="yellow-square"></span>
                     <div>
-                        <p className="aileron-black">I’m currently finishing my degree on Software engineer at Universidad Tecnológica de Panamá, Panamá.</p>
+                        <p className="aileron-black">I’m currently <span className="highlighted-text">finishing</span> my degree on Software engineer at Universidad Tecnológica de Panamá, Panamá.</p>
                         <p className="aileron-black">I discovered web development to be a passion of mine during my studies, and I’ve been learning since then.</p>
                     </div>
                 </section>
@@ -25,7 +25,7 @@ const About = () => {
                         <br />
                         <p className="aileron-black">I hit the gym (almost) once per day to keep my life healthy.</p>
                         <br />
-                        <p className="aileron-black">Balancing that, I'm a video game enthusiast; there is something special about bugs and glitches in software, so that eventually I worked as a beta tester for a mobile games company.</p>
+                        <p className="aileron-black">Balancing that, I'm a video game enthusiast; there is something special about bugs and glitches in software, so that eventually I worked as a <span className="marked-text">beta tester</span> for a mobile games company.</p>
                         <br />
                         <p className="aileron-black">At some point I held an honorable 23th position in the Smash Ultimate Panamá Rankings during the 2022 season. I’m still proud of that.</p>
                         <br />
@@ -51,7 +51,7 @@ const About = () => {
                         <br />
                         <p className="aileron-black">I have designed logos, creative art using different techniques, power rankings, posters... </p>
                         <br />
-                        <p className="aileron-black">I have a little galery that I update time to time on instagram.</p>
+                        <p className="aileron-black">I have a little galery that I update time to time on <a href="https://www.instagram.com/napzzzart/"  target="_blank" className="marked">instagram</a>.</p>
                     </div>
                     <div className="images d-flex flex-column flex-grow-1 gap-4">
                         <div className="d-flex w-100 gap-4 flex-shrink-1">

@@ -13,7 +13,7 @@ const Contact = () => {
                         <img className="w-100 opacity-0" src="./images/design1.jpg" />
                     </span>
                     <div>
-                        <div className="d-flex gap-5">
+                        <div className="d-flex gap-5 flex-wrap">
                             <div>
                                 <h1 className="basement sub-title">Email</h1>
                                 <p className="aileron-black">daniel.napolip@gmail.com</p>

@@ -54,7 +54,7 @@
   a.nav-link{
     color: white;
     font-family: "AileronBold";
-    font-size: 32px;
+    font-size: 20px;
   }
   
   a.nav-link .selected{
@@ -62,16 +62,16 @@
   }
   
   .container{
-    margin-block: 10rem;
+    margin-block: 5rem;
   }
   
   .basement{
     font-family: "BasementGrotesque";
-    font-size: 100px;
+    font-size: 60px;
   }
   
   .sub-title{
-    font-size: 80px;
+    font-size: 40px;
   }
   
   .instagram-sans{
@@ -86,7 +86,7 @@
   
   .aileron-black{
     font-family: "AileronBlack";
-    font-size: 28px;
+    font-size: 18px;
     margin-bottom: 0;
   }
   

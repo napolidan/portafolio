@@ -15,22 +15,20 @@ const Contact = () => {
                     <div>
                         <div className="d-flex gap-5">
                             <div>
-                                <h3 className="basement">Email</h3>
+                                <h1 className="basement sub-title">Email</h1>
                                 <p className="aileron-black">daniel.napolip@gmail.com</p>
                             </div>
                             <div>
-                                <h3 className="basement">Phone number</h3>
+                                <h1 className="basement sub-title">Phone number</h1>
                                 <p className="aileron-black">+507 6115-6670</p>
                             </div>
                         </div>
                         <br />
                         <br />
-                        <h3 className="basement">My accounts</h3>
+                        <h1 className="basement sub-title">My accounts</h1>
                         <br />
                         <p className="aileron-black"><a className="marked" href="https://linkedin.com/in/napolidan" target="_blank">LinkedIn<span className="instagram-sans"> -></span></a></p>
-                        <br />
                         <p className="aileron-black"><a className="marked" href="https://github.com/napolidan" target="_blank">Github<span className="instagram-sans"> -></span></a></p>
-                        <br />
                         <p className="aileron-black"><a className="marked" href="https://codepen.io/napolidan" target="_blank">Codepen<span className="instagram-sans"> -></span></a></p>
 
                     </div>

@@ -229,8 +229,9 @@
 
 
     .about .yellow-square,
-    .curriculum .yellow-square{
-      min-width: 100px;
+    .curriculum .yellow-square,
+    .contact .yellow-square
+    { min-width: 100px;
       min-height: 100px;
       width: 100px !important;
       height: 100px;

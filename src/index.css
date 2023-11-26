@@ -22,21 +22,21 @@
   
   @font-face {
     font-family: 'AileronBlack';
-    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/Aileron-Black.otf') format('opentype');
+    src: url('/portafolio/fonts/Aileron-Black.otf') format('opentype');
     font-weight: black;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'AileronBold';
-    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/Aileron-Bold.otf') format('opentype');
+    src: url('/portafolio/fonts/Aileron-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'InstagramSans';
-    src: url('https://github.com/napolidan/portafolio/blob/master/public/fonts/InstagramSans.ttf') format('opentype');
+    src: url('/portafolio/fonts/InstagramSans.ttf') format('opentype');
     font-weight: black;
     font-style: normal;
   }

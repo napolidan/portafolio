@@ -224,3 +224,28 @@
     color: #FFC66F;
   }
   
+  @media (max-width: 500px) {
+
+
+
+    .about .yellow-square,
+    .curriculum .yellow-square{
+      min-width: 100px;
+      min-height: 100px;
+      width: 100px !important;
+      height: 100px;
+    }
+
+    body .gap-5{
+      gap: 2rem !important;
+    }
+    
+    .basement{
+      font-size: 30px;
+    }
+
+    .aileron-black{
+      font-size: 10px;
+    }
+
+  }

@@ -127,9 +127,13 @@
     max-width: 100%;
   }
   
-  .visible-responsive {
+  .about .visible-responsive {
     visibility: hidden;
     position: absolute;
+  }
+
+  .curriculum .visible-responsive {
+    visibility: hidden;
   }
   
   .designs .images .power-ranks *{
@@ -186,20 +190,32 @@
     .curriculum .no-visible-responsive, .curriculum .no-visible-responsive *{
       display: none;
     }
-  
-    .curriculum .yellow-square {
-      justify-content: end !important;
-    }
+
   }
   
-  .cv{
-    width: 50%;
+  .curriculum div div:nth-child(2){
+    height: 0;
+    padding-bottom: 50%;
+  }
+
+  .curriculum>div{
+    height: fit-content !important;
+  }
+
+  .curriculum>div>div:nth-child(1){
+    height: fit-content !important;
+
+  }
+
+  .yellow-square-curriculum{
+    border: 1px solid #FFC66F;
+    aspect-ratio: 1/1;
+  }
+
+  .cv {
+    
   }
   
-  
-  .curriculum .yellow-square, .contact .yellow-square {
-    height: fit-content;
-  }
   
   .marked-text {
     width: fit-content;
@@ -229,7 +245,6 @@
 
 
     .about .yellow-square,
-    .curriculum .yellow-square,
     .contact .yellow-square
     { min-width: 100px;
       min-height: 100px;

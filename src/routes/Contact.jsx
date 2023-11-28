@@ -10,7 +10,6 @@ const Contact = () => {
                 <br />
                 <section className="d-flex gap-5">
                     <span className="yellow-square">
-                        <img className="w-100 opacity-0" src="./images/design1.jpg" />
                     </span>
                     <div>
                         <div className="d-flex gap-5 flex-wrap">

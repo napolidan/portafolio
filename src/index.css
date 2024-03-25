@@ -112,7 +112,7 @@ body * {
   object-fit: cover;
 }
 
-.projects-flex>div {
+.projects-flex>a {
   width: 200px;
 }
 

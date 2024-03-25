@@ -6,8 +6,7 @@ const Menu = () => {
 
     return (
         <>
-            <Navbar className="custom-navbar" variant="dark" expand="lg">
-                <Navbar.Toggle aria-controls="navbarNavDropdown" />
+            <Navbar className="custom-navbar sticky-top" variant="dark" expand="lg">
                 <Navbar.Collapse id="navbarNavDropdown">
                     <Nav>
                         <Nav.Item>

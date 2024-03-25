@@ -5,20 +5,16 @@ const Curriculum = () => {
     return (
         <>
             <Menu />
-            <div className="container curriculum d-flex flex-column">
-
-                <div className="w-100 gap-4 d-flex">
-                    <div className="w-50">
-                        <img className="w-100" src="./images/cv.jpg" />
-                    </div>
-                    <div className="yellow-square-curriculum w-50">
-                        <h1 className="basement no-visible-responsive text-end">Curriculum<br />Vitae</h1>
-                        <h1 className="basement visible-responsive text-end">CV</h1>
-                    </div>
+            <div className="container curriculum d-flex flex-column mb-5">
+                <h1 className="basement">Curriculum vitae</h1>
+                <br />
+                <div className="curriculum-container d-flex justify-content-center">
+                    <img className="cv" src="./images/cv.jpg" />
                 </div>
-
-                <h3 className="basement mt-auto pt-5">2023</h3>
             </div>
+
+            <h3 className="basement date mt-5">202<span className="yellow-text">4</span></h3>
+            <h3 className="basement signature">Daniel <span className="yellow-text">Napoli</span></h3>
         </>
     )
 

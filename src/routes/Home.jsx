@@ -5,19 +5,26 @@ const Home = () => {
     return (
         <>
             <Menu />
-            <div className="container d-flex flex-column">
-                <h1 className="basement text-end">Hello<br />I'm Daniel Napoli</h1>
-                <br />
-                <span className="yellow-square w-100 p-4 d-flex flex-column justify-content-between">
-                    <p className="aileron-black yellow-text w-50">I am a dedicated software engineering student on the verge of graduation,</p>
-                    <p className="aileron-black yellow-text w-50 text-end align-self-end">my passion for technology fuels my aspiration to contribute to the tech industry</p>
-                </span>
-                <br />
-                <p className="aileron-black w-50 text-end align-self-end">through the creation of innovative solutions, outside of the box.</p>
-
-
-                <h3 className="basement mt-auto pt-5">2023</h3>
+            <div className="container home justify-content-center d-flex flex-row">
+                <div className="d-flex flex-column align-items-center gap-5">
+                    <img src="./images/profilepic.svg" className="profile-pic-image" />
+                    <img src="./images/xgroup.svg" className="xgroup" />
+                </div>
+                <div className="d-flex flex-column gap-4">
+                    <div>
+                        <h1 className="basement text-end">Hello<br />I'm Daniel Napoli</h1>
+                        <h1 className="basement-small text-end yellow-text">Fullstack developer</h1>
+                    </div>
+                    <span className="yellow-square w-100 p-5 d-flex flex-column justify-content-between">
+                        <p className="aileron-black yellow-text">I’m a dedicated software engineering, super passionate
+                            about Web Development and Digital Design!</p>
+                            <br />
+                            <br />
+                        <img src="./images/3dots.svg" className="dots" />
+                    </span>
+                </div>
             </div>
+            <h3 className="basement home-date date">202<span className="yellow-text">4</span></h3>
         </>
     )
 

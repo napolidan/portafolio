@@ -1,239 +1,298 @@
-:root, body, body *{
-    background-color: #252525;
-    color: white;
-  }
-  
-  
-  
-  #root{
-    height: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  @font-face {
-    font-family: 'BasementGrotesque';
-    src: url('/portafolio/fonts/BasementGrotesque.otf') format('opentype');
-    font-weight: black;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'AileronBlack';
-    src: url('/portafolio/fonts/Aileron-Regular.otf') format('opentype');
-    font-weight: black;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'AileronBold';
-    src: url('/portafolio/fonts/Aileron-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'InstagramSans';
-    src: url('/portafolio/fonts/InstagramSans.ttf') format('opentype');
-    font-weight: black;
-    font-style: normal;
-  }
-  
-  *{
-    box-sizing: border-box;
-  }
-  
-  .navbar-collapse {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-  }
-  
-  a.nav-link{
-    color: white;
-    font-family: "AileronBold";
-    font-size: 20px;
-  }
-  
-  a.nav-link .selected{
-    font-size: 28px;
-  }
-
-  .custom-navbar {
-    background-color: #252525;
-  }
-  
-  .container{
-    margin-block: 5rem;
-  }
-  
-  .basement{
-    font-family: "BasementGrotesque";
-  }
-  
-  .instagram-sans{
-    font-family: "InstagramSans";
-    font-size: 2rem;
-    color: #FFC66F;
-  }
-  
-  
-  .aileron-black{
-    font-family: "AileronBlack";
-    margin-bottom: 0;
-  }
-  
-  .container {
-    height: 100%;
-    flex: 1;
-  }
-  
-  .yellow-square{
-    border: 1px solid #FFC66F;
-    min-height: 218px;
-    min-width: 218px;
-    width: fit-content;
-  }
-
-  .contact .yellow-square,
-  .about .yellow-square{
-      border: 1px solid #FFC66F;
-      height: 0;
-      padding-bottom: 218px;
-      min-width: 218px;
-      width: fit-content;
-  }
-  
-  .yellow-text{
-    color: #FFC66F;
-  }
-  
-  .personal div{
-    width: 55%;
-  }
-  
-  .personal>img{
-    width: 50%;
-    height: 50%;
-  }
-  
-  .designs .text{
-    width: 45%;
-  }
-  
-  .designs .images *{
-    max-width: 100%;
-  }
-  
-  .about .visible-responsive {
-    visibility: hidden;
-    position: absolute;
-  }
-
-  .curriculum .visible-responsive {
-    visibility: hidden;
-  }
-  
-  .designs .images .power-ranks *{
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 1199px) {
-  
-    .designs div{
-      flex-direction: column;
-    }
-  
-    .about .no-visible-responsive, .about .no-visible-responsive *{
-      display: none;
-    }
-  
-    .about .visible-responsive {
-      visibility: visible;
-      position: static;
-      flex-wrap: wrap;
-    }
-  
-    .about .visible-responsive div{
-      padding: 10px;
-      width: 50%;
-    }
-  
-    .about .visible-responsive img{
-      width: 100%;
-    }
-  
-  }
-  
-  @media (max-width: 800px) {
-  
-    .curriculum .visible-responsive {
-      visibility: visible;
-    }
-  
-    .curriculum .no-visible-responsive, .curriculum .no-visible-responsive *{
-      display: none;
-    }
-
-  }
-  
-  .curriculum div div:nth-child(2){
-    height: 0;
-    padding-bottom: 50%;
-  }
-
-  .curriculum>div{
-    height: fit-content !important;
-  }
-
-  .curriculum>div>div:nth-child(1){
-    height: fit-content !important;
-
-  }
-
-  .yellow-square-curriculum{
-    border: 1px solid #FFC66F;
-    aspect-ratio: 1/1;
-  }
-
-  .cv {
-    
-  }
-  
-  
-  .marked-text {
-    width: fit-content;
-    background-color: #FFC66F;
-    color: #252525;
-  }
-
-  .highlighted-text{
-    color: #FFC66F;
-  }
-
-  .marked, .marked:visited {
-    text-decoration: none;
-    width: fit-content;
-    background-color: #FFC66F;
-    color: #252525;
-  }
-  
-  .marked:hover {
-    text-decoration: none;
-    background-color: #252525;
-    color: #FFC66F;
-  }
- 
+:root,
+body,
+body * {
+  background-color: #252525;
+  color: white;
+}
 
 
 
-  /* Default font sizes */
+#root {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@font-face {
+  font-family: 'BasementGrotesque';
+  src: url('/portafolio/fonts/BasementGrotesque.otf') format('opentype');
+  font-weight: black;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AileronBlack';
+  src: url('/portafolio/fonts/Aileron-Regular.otf') format('opentype');
+  font-weight: black;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AileronBold';
+  src: url('/portafolio/fonts/Aileron-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InstagramSans';
+  src: url('/portafolio/fonts/InstagramSans.ttf') format('opentype');
+  font-weight: black;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+}
+
+/* IMAGES */
+
+.profile-pic-image {
+  width: 200px;
+}
+
+.xgroup {
+  width: 80px;
+}
+
+.dots {
+  width: 40px;
+  align-self: end;
+}
+
+.arrows {
+  width: 20px;
+}
+
+.napzzz {
+  width: 100px;
+}
+
+.art {
+  width: 300px;
+}
+
+.pic {
+  width: 300px;
+  height: 100%;
+}
+
+.squaredots,
+.flash {
+  height: fit-content;
+}
+
+.arrow {
+  width: auto;
+  height: fit-content;
+}
+
+.image-cover {
+  display: flex;
+  border: 1px solid #FFC66F;
+  /* justify-content: center; */
+}
+
+.image-cover>div {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  transform: translate(20px, 20px);
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-flex>div {
+  width: 200px;
+}
+
+.curriculum-container {
+  border: 1px solid #FFC66F;
+  width: fit-content;
+}
+
+.cv {
+  width: 500px;
+  transform: translate(20px, 20px);
+}
+
+/* IMAGES */
+
+.container.home,
+.container.about,
+.container.projects,
+.container.curriculum,
+.container.contact {
+  margin-top: 10rem;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.home {
+  gap: 8rem;
+}
+
+.dark {
+  margin-top: -3rem;
+  padding: 4rem 2rem 2rem;
+  background-color: #171717;
+  min-height: 400px;
+  overflow: auto;
+}
+
+.home-date,
+.contact-date {
+  position: absolute !important;
+}
+
+.date {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signature {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  background-color: transparent;
+}
+
+.signature * {
+  background-color: transparent;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+a.nav-link {
+  color: white;
+  font-family: "AileronBold";
+  font-size: 20px;
+}
+
+a.nav-link .selected {
+  font-size: 28px;
+}
+
+.custom-navbar {
+  background-color: #212121;
+}
+
+.custom-navbar * {
+  background-color: unset;
+}
+
+.basement {
+  font-family: "BasementGrotesque";
+  line-height: 36px;
+}
+
+.basement-small {
+  font-family: "BasementGrotesque";
+  font-size: 16px;
+}
+
+.basement-subtitle {
+  font-family: "BasementGrotesque";
+  font-size: 24px;
+  word-wrap: wrap;
+}
+
+.instagram-sans {
+  font-family: "InstagramSans";
+  font-size: 2rem;
+  color: #FFC66F;
+}
+
+
+.aileron-black {
+  font-family: "AileronBlack";
+  margin-bottom: 0;
+}
+
+.yellow-square {
+  border: 1px solid #FFC66F;
+}
+
+.about .yellow-square,
+.contact .yellow-square {
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+
+.yellow-text {
+  color: #FFC66F;
+}
+
+.personal div {
+  width: 55%;
+}
+
+.personal>img {
+  width: 50%;
+  height: 50%;
+}
+
+.designs .text {
+  width: 45%;
+}
+
+.designs .images * {
+  max-width: 100%;
+}
+
+.designs .images .power-ranks * {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.highlighted-text {
+  color: #FFC66F;
+}
+
+.marked,
+.marked:visited {
+  text-decoration: none;
+  width: fit-content;
+}
+
+.marked:hover p {
+  text-decoration: none;
+  background-color: #252525;
+  color: #FFC66F;
+}
+
+.marked p {
+  height: fit-content;
+  background-color: #FFC66F;
+  color: #252525;
+}
+
+
+/* Default font sizes */
 .basement h1 {
-  font-size: 2.5rem;
+  font-size: 36px;
 }
 
 .sub-title {
@@ -241,82 +300,5 @@
 }
 
 .aileron-black {
-  font-size: 1rem;
-}
-
-/* Responsive font sizes */
-@media (min-width: 576px) {
-  /* Small devices (576px and up) */
-  .basement h1 {
-      font-size: 3rem;
-  }
-
-  .sub-title {
-      font-size: 2rem;
-  }
-
-  .basement h3 {
-      font-size: 1.5rem;
-  }
-
-  .aileron-black {
-      font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  /* Medium devices (768px and up) */
-  .basement h1 {
-      font-size: 3.5rem;
-  }
-
-  .sub-title {
-      font-size: 2.2rem;
-  }
-
-  .basement h3 {
-      font-size: 1.8rem;
-  }
-
-  .aileron-black {
-      font-size: 1.4rem;
-  }
-}
-
-@media (min-width: 992px) {
-  /* Large devices (992px and up) */
-  .basement h1 {
-      font-size: 4rem;
-  }
-
-  .sub-title {
-      font-size: 2.5rem;
-  }
-
-  .basement h3 {
-      font-size: 2rem;
-  }
-
-  .aileron-black {
-      font-size: 1.6rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* Extra large devices (1200px and up) */
-  .basement h1 {
-      font-size: 4.5rem;
-  }
-
-  .sub-title {
-      font-size: 2.8rem;
-  }
-
-  .basement h3 {
-      font-size: 2.2rem;
-  }
-
-  .aileron-black {
-      font-size: 1.8rem;
-  }
+  font-size: 16px;
 }

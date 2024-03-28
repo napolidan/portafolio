@@ -21,7 +21,7 @@ const About = () => {
                 <h1 className="basement-small yellow-text bg-transparent">feat my friend Illustrator</h1>
             </div>
             <div className="dark d-flex flex-column align-items-center">
-                <img src="./images/designs.png" className="bg-transparent w-75" />
+                <img src="./images/designs.png" className="bg-transparent designs-collage" />
                 <img src="./images/napzzz.jpg" alt="" className="align-self-end napzzz" />
             </div>
             <div className="container mb-4">
@@ -31,9 +31,9 @@ const About = () => {
                 </div>
                 <br />
                 <div className="d-flex gap-5">
-                    <p className="aileron-black w-50 pb-4">As someone who taught myself the art of 3D modeling, this gallery represents my progression over time.</p>
+                    <p className="aileron-black pb-4 art-description">As someone who taught myself the art of 3D modeling, this gallery represents my progression over time.</p>
                 </div>
-                <div className="d-flex flex-wrap justify-content-center gap-3">
+                <div className="d-flex flex-wrap art-gallery">
                     <img src="./images/art1.jpg" alt="" className="art" />
                     <img src="./images/art2.jpg" alt="" className="art" />
                     <img src="./images/art3.jpg" alt="" className="art" />
@@ -56,8 +56,8 @@ const About = () => {
                     <img src="./images/flash.png" alt="" className="flash" />
                 </div>
                 <br />
-                <div className="d-flex gap-4 justify-content-center">
-                    <div className="d-flex flex-column gap-4">
+                <div className="d-flex justify-content-center myself-gallery">
+                    <div className="d-flex flex-column myself-gallery">
                         <img src="./images/pic1.jpeg" alt="" className="pic" />
                         <img src="./images/pic2.jpeg" alt="" className="pic" />
                     </div>

@@ -6,8 +6,12 @@ const Menu = () => {
 
     return (
         <>
-            <Navbar className="custom-navbar sticky-top" variant="dark" expand="lg">
-                <Navbar.Collapse id="navbarNavDropdown">
+            <Navbar className="custom-navbar sticky-top" variant="dark" expand="md">
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                    <img src="./images/button.png" className='button' alt="Toggle" />
+
+                </Navbar.Toggle>
+                <Navbar.Collapse id="navbarNavDropdown" expand="md">
                     <Nav>
                         <Nav.Item>
                             <Link className="nav-link" to={"/"}>Home</Link>

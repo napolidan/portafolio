@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="container contact">
                 <h1 className="basement">Contact me!</h1>
                 <br />
-                <div className="d-flex gap-5">
+                <div className="d-flex contact-flex">
                     <div className="yellow-square p-3 d-flex justify-content-end align-items-end">
                         <img src="./images/arrows.svg" className="arrows" />
                     </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <h3 className="basement home-date date">202<span className="yellow-text">4</span></h3>
+            <h3 className="basement contact-date date">202<span className="yellow-text">4</span></h3>
             <h3 className="basement signature">Daniel <span className="yellow-text">Napoli</span></h3>
         </>
     )

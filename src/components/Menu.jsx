@@ -9,8 +9,8 @@ const Menu = () => {
             <Navbar className="custom-navbar sticky-top" variant="dark" expand="md">
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <img src="./images/button.png" className='button' alt="Toggle" />
-
                 </Navbar.Toggle>
+                <h3 className="basement navbar-text">Daniel <span className="yellow-text">Napoli</span></h3>
                 <Navbar.Collapse id="navbarNavDropdown" expand="md">
                     <Nav>
                         <Nav.Item>

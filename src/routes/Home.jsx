@@ -19,8 +19,8 @@ const Home = () => {
                     <span className="yellow-square w-100 p-5 d-flex flex-column justify-content-between">
                         <p className="aileron-black yellow-text home-description">I’m a dedicated software engineer, super passionate
                             about Web Development and Digital<br className="line-jump" /> Design!</p>
-                        <br />
-                        <br />
+                        <br className="web-only"/>
+                        <br className="web-only"/>
                         <img src="./images/3dots.svg" className="dots" />
                     </span>
                 </div>

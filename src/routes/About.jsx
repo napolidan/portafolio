@@ -56,7 +56,7 @@ const About = () => {
                     <img src="./images/flash.png" alt="" className="flash" />
                 </div>
                 <br />
-                <div className="d-flex justify-content-center myself-gallery">
+                <div className="d-flex myself-gallery">
                     <div className="d-flex flex-column myself-gallery">
                         <img src="./images/pic1.jpeg" alt="" className="pic" />
                         <img src="./images/pic2.jpeg" alt="" className="pic" />
@@ -74,7 +74,7 @@ const About = () => {
                 </div>
             </div>
             <h3 className="basement date mt-5">202<span className="yellow-text">4</span></h3>
-            <h3 className="basement signature">Daniel <span className="yellow-text">Napoli</span></h3>
+            <h3 className="basement signature web-only">Daniel <span className="yellow-text">Napoli</span></h3>
         </>
     )
 

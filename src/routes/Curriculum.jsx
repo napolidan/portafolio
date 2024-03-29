@@ -14,7 +14,7 @@ const Curriculum = () => {
             </div>
 
             <h3 className="basement date mt-5">202<span className="yellow-text">4</span></h3>
-            <h3 className="basement signature">Daniel <span className="yellow-text">Napoli</span></h3>
+            <h3 className="basement signature web-only">Daniel <span className="yellow-text">Napoli</span></h3>
         </>
     )
 

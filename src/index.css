@@ -15,6 +15,9 @@ body * {
   overflow: hidden;
 }
 
+:root {
+  --decoration-opacity: 50%;
+}
 
 @font-face {
   font-family: 'BasementGrotesque';
@@ -64,6 +67,7 @@ body * {
 
 .xgroup {
   width: 80px;
+  opacity: var(--decoration-opacity);
 }
 
 .designs-collage {
@@ -73,10 +77,12 @@ body * {
 .dots {
   width: 40px;
   align-self: end;
+  opacity: var(--decoration-opacity);
 }
 
 .arrows {
   width: 20px;
+  opacity: var(--decoration-opacity);
 }
 
 .napzzz {
@@ -95,6 +101,12 @@ body * {
 .squaredots,
 .flash {
   height: fit-content;
+  opacity: var(--decoration-opacity);
+}
+
+.star {
+  width: 30px;
+  opacity: var(--decoration-opacity);
 }
 
 .arrow {
@@ -135,6 +147,20 @@ body * {
   transform: translate(20px, 20px);
 }
 
+.download-container,
+.download-container * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  text-decoration: none;
+  color: #FFC66F;
+}
+
+.download {
+  width: 30px;
+}
+
 /* IMAGES */
 
 .container.home,
@@ -154,7 +180,7 @@ body * {
   flex-direction: row;
 }
 
-.home-flex{
+.home-flex {
   gap: 3rem;
 }
 
@@ -221,19 +247,22 @@ a.nav-link {
   font-size: 16px;
 }
 
-a.nav-link .selected {
-  font-size: 28px;
+.nav-item:hover span {
+  background-color: #FFC66F;
+  color: #252525;
 }
 
 .custom-navbar {
   background-color: #212121;
+  position: fixed !important;
+  width: 100%;
 }
 
 .custom-navbar * {
   background-color: unset;
 }
 
-.navbar-text{
+.navbar-text {
   display: none;
   font-size: 14px;
   margin: 0;
@@ -276,6 +305,16 @@ a.nav-link .selected {
 .contact .yellow-square {
   height: 200px;
   aspect-ratio: 1/1;
+}
+
+.curriculum .yellow-square {
+  height: 100px;
+  aspect-ratio: 1/1;
+  justify-content: center;
+}
+
+.intro {
+  gap: 3rem;
 }
 
 .contact-flex {
@@ -357,10 +396,10 @@ a.nav-link .selected {
     margin-bottom: 3rem;
   }
 
-  .home-flex{
+  .home-flex {
     gap: 1rem;
   }
-  
+
   .home .yellow-square {
     padding: 1rem !important;
   }
@@ -408,8 +447,24 @@ a.nav-link .selected {
     margin-bottom: 2rem;
   }
 
+  .dots {
+    width: 10px;
+  }
 
   /* ABOUT */
+
+  .about .yellow-square {
+    height: 100px;
+    aspect-ratio: 1/1;
+  }
+
+  .arrows {
+    width: 15px;
+  }
+
+  .intro {
+    gap: 1rem;
+  }
 
   .designs-collage {
     width: 100%;
@@ -419,7 +474,7 @@ a.nav-link .selected {
     width: 20%;
   }
 
-  .dark{
+  .dark {
     height: fit-content !important;
   }
 
@@ -457,6 +512,15 @@ a.nav-link .selected {
     transform: translate(10px, 10px);
   }
 
+  .curriculum .yellow-square {
+    width: 50px;
+    height: 50px;
+  }
+
+  .curriculum .yellow-square p {
+    display: none;
+  }
+
   /* CONTACT */
 
   .contact-flex {
@@ -472,11 +536,9 @@ a.nav-link .selected {
 
   .custom-navbar {
     padding-inline: 0.5rem !important;
-    position: fixed !important;
-    width: 100%;
   }
 
-  .navbar-text{
+  .navbar-text {
     display: unset;
   }
 

@@ -8,8 +8,14 @@ const Curriculum = () => {
             <div className="container curriculum d-flex flex-column mb-5">
                 <h1 className="basement">Curriculum vitae</h1>
                 <br />
-                <div className="curriculum-container d-flex justify-content-center">
-                    <img className="cv" src="./images/cv.jpg" />
+                <div className="d-flex gap-5">
+                    <div className="curriculum-container d-flex justify-content-center">
+                        <img className="cv" src="./images/cv2.jpg" />
+                    </div>
+                    <a href="./cv.pdf" className="download-container yellow-square" download="cv.pdf">
+                        <p className="aileron-black">Download!</p>
+                        <img className="download" src="./images/download.png" />
+                    </a>
                 </div>
             </div>
 

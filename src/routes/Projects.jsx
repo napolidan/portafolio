@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="container projects mb-4">
                 <div className="d-flex gap-4 align-items-center">
                     <h1 className="basement">Some of my web projects</h1>
-                    <img src="./images/star.png" alt="" className="squaredots" />
+                    <img src="./images/star.png" alt="" className="star" />
                 </div>
                 <br />
                 <br />

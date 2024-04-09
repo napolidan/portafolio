@@ -9,7 +9,7 @@ const About = () => {
             <div className="container about">
                 <h1 className="basement">Something about myself</h1>
                 <br />
-                <div className="d-flex gap-5">
+                <div className="d-flex intro">
                     <div className="yellow-square p-3 d-flex justify-content-end align-items-end">
                         <img src="./images/arrows.svg" className="arrows" />
                     </div>
@@ -20,10 +20,10 @@ const About = () => {
                 <h1 className="basement bg-transparent">Digital design</h1>
                 <h1 className="basement-small yellow-text bg-transparent">feat my friend Illustrator</h1>
             </div>
-            <div className="dark d-flex flex-column align-items-center">
+            <a href="https://instagram.com/napzzzart?igshid=MDM4ZDc5MmU=" target="_blank" className="dark d-flex flex-column align-items-center">
                 <img src="./images/designs.png" className="bg-transparent designs-collage" />
                 <img src="./images/napzzz.jpg" alt="" className="align-self-end napzzz" />
-            </div>
+            </a>
             <div className="container mb-4">
                 <div className="d-flex justify-content-between">
                     <h1 className="basement">3D Art</h1>
@@ -33,7 +33,7 @@ const About = () => {
                 <div className="d-flex gap-5">
                     <p className="aileron-black pb-4 art-description">As someone who taught myself the art of 3D modeling, this gallery represents my progression over time.</p>
                 </div>
-                <div className="d-flex flex-wrap art-gallery">
+                <div className="d-flex flex-wrap art-gallery m-auto justify-content-center">
                     <img src="./images/art1.jpg" alt="" className="art" />
                     <img src="./images/art2.jpg" alt="" className="art" />
                     <img src="./images/art3.jpg" alt="" className="art" />
@@ -48,15 +48,16 @@ const About = () => {
                 </div>
             </div>
             <div className="container">
-                <h1 className="basement pb-4">My hobbies</h1>
                 <div className="d-flex justify-content-between">
-                    <div className="d-flex gap-5">
-                        <p className="aileron-black w-75 pb-4">As much as I like staying inside programming I also spend time at the gym, going out with friends, on a hike, and also attend to E-sports tournaments.</p>
-                    </div>
+                    <h1 className="basement">My hobbies</h1>
                     <img src="./images/flash.png" alt="" className="flash" />
                 </div>
                 <br />
-                <div className="d-flex myself-gallery">
+                <div className="d-flex gap-5">
+                    <p className="aileron-black pb-4 art-description">As much as I like staying inside programming I also spend time at the gym, going out with friends, on a hike, and also attend to E-sports tournaments.</p>
+                </div>
+                <br />
+                <div className="d-flex myself-gallery justify-content-center">
                     <div className="d-flex flex-column myself-gallery">
                         <img src="./images/pic1.jpeg" alt="" className="pic" />
                         <img src="./images/pic2.jpeg" alt="" className="pic" />

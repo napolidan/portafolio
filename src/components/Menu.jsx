@@ -14,19 +14,19 @@ const Menu = () => {
                 <Navbar.Collapse id="navbarNavDropdown" expand="md">
                     <Nav>
                         <Nav.Item>
-                            <Link className="nav-link" to={"/"}>Home</Link>
+                            <Link className="nav-link" to={"/"}><span>Home</span></Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className="nav-link" to={"/about"}>About me</Link>
+                            <Link className="nav-link" to={"/about"}><span>About me</span></Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className="nav-link" to={"/projects"}>My projects</Link>
+                            <Link className="nav-link" to={"/projects"}><span>My projects</span></Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className="nav-link" to={"/cv"}>CV</Link>
+                            <Link className="nav-link" to={"/cv"}><span>CV</span></Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className="nav-link" to={"/contact"}>Contact</Link>
+                            <Link className="nav-link" to={"/contact"}><span>Contact</span></Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
